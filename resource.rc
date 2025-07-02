@@ -1,0 +1,16 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "icon.ico"
+
+IDR_MENU MENU
+BEGIN
+    POPUP "Game"
+    BEGIN
+        MENUITEM "Restart", ID_MENU_RESTART
+        MENUITEM "Exit", ID_MENU_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About", ID_MENU_ABOUT
+    END
+END
